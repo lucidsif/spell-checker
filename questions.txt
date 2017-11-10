@@ -1,0 +1,9 @@
+0.  Longest word in the dictionary with a length of 45.
+1.  It returns resource usage measures for who which can be either "self- the calling process", "children- the children of the calling process", or "the calling thread"
+2.  16
+3.  Not sure.
+4.  Once a dictionary is loaded, main starts reading a text by character and constructing a word based on the type, proximity, and sequence of the characters.
+Then, it checks the word for misspellings using check, resert the word index to 0, and continues the character reading loop. If a string is too long,
+it isn't checked.
+5.  While fscanf is easier to write, it must allocate memory for a string before reading it from file and the length of a word can be too long.
+6.  So they can be immutable.
